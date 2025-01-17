@@ -130,3 +130,24 @@ The distribution of residuals shows how predictions deviate from actual values.
    ```bash
    git clone https://github.com/yourusername/boston-housing-prediction.git
    cd boston-housing-prediction
+2. Install the required dependencies:
+   ```bash
+   pip install torch scikit-learn matplotlib pandas
+3. Run the Python scripts for each model:
+   ```bash
+   python slr_model.py      # For Simple Linear Regression
+   python mlp_model.py      # For Multi-Layer Perceptron
+   python decision_tree.py  # For Decision Tree Regressor
+
+---
+
+## 🛠️ Future Improvements
+- Implement advanced models like Random Forest or Gradient Boosting for further improvements.
+- Perform hyperparameter tuning to optimize model performance.
+- Explore feature engineering techniques for better feature representation.
+
+---
+
+## 👤 Author
+Archer Lin
+![GitHub Profile]
