@@ -150,4 +150,4 @@ The distribution of residuals shows how predictions deviate from actual values.
 
 ## 👤 Author
 Archer Lin
-![GitHub Profile]
+[GitHub]([https://github.com](https://github.com/archerlinn))
