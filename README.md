@@ -61,67 +61,50 @@ The target variable, **MEDV**, represents the median value of owner-occupied hom
 
 ### 1. Training Loss for MLP Model
 The training loss decreases over epochs, indicating the model's convergence.
-<img width="638" alt="Screenshot 2025-01-17 at 6 16 26 PM" src="https://github.com/user-attachments/assets/db1d7feb-518c-4aba-9cb9-ec5bfaf4b467" />
-
-
----
-
-### 2. Predicted vs True Values
-
-#### **Simple Linear Regression**
-- The predictions are less accurate, with high deviations from the true values.
-![SLR Predicted vs True](./path-to-slr-scatter.png)
-
-#### **Multi-Layer Perceptron**
-- The predictions are closer to the true values, demonstrating better performance.
-![MLP Predicted vs True](./path-to-mlp-scatter.png)
-
-#### **Decision Tree Regressor**
-- The most accurate predictions with minimal deviations from the true values.
-![Decision Tree Predicted vs True](./path-to-dt-scatter.png)
+![NeuralNet Training Loss](./visuals/train_loss_nn.png)
 
 ---
 
-### 3. Residual Plots
+### 2. Residual Plots
 
 Residuals (differences between true and predicted values) help assess the quality of the model.
 
 #### **Simple Linear Regression**
-![SLR Residuals](./path-to-slr-residuals.png)
+![SLR Residuals](./visuals/residual_slr.png)
 
 #### **Multi-Layer Perceptron**
-![MLP Residuals](./path-to-mlp-residuals.png)
+![NeuralNet Residuals](./visuals/residual_nn.png)
 
 #### **Decision Tree Regressor**
-![Decision Tree Residuals](./path-to-dt-residuals.png)
+![Decision Tree Residuals](./visuals/residual_dt.png)
 
 ---
 
-### 4. Histogram of Residuals
+### 3. Histogram of Residuals
 
 The distribution of residuals shows how predictions deviate from actual values.
 
 #### **Simple Linear Regression**
-![SLR Residual Histogram](./path-to-slr-histogram.png)
+![SLR Residual Histogram](./visuals/dist_res_slr.png)
 
 #### **Multi-Layer Perceptron**
-![MLP Residual Histogram](./path-to-mlp-histogram.png)
+![NeuralNet Residual Histogram](./visuals/dist_res_nn.png)
 
 #### **Decision Tree Regressor**
-![Decision Tree Residual Histogram](./path-to-dt-histogram.png)
+![Decision Tree Residual Histogram](./visuals/dist_res_dt.png)
 
 ---
 
-### 5. Line Plot of Predictions vs True Values
+### 4. Line Plot of Predictions vs True Values
 
 #### **Simple Linear Regression**
-![SLR Line Plot](./path-to-slr-line.png)
+![SLR Line Plot](./visuals/tvp_slr.png)
 
 #### **Multi-Layer Perceptron**
-![MLP Line Plot](./path-to-mlp-line.png)
+![NeuralNet Line Plot](./visuals/tvp_nn.png)
 
 #### **Decision Tree Regressor**
-![Decision Tree Line Plot](./path-to-dt-line.png)
+![Decision Tree Line Plot](./visuals/tvp_dt.png)
 
 ---
 

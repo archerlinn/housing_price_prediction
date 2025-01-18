@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 
 # Load the dataset
-boston = pd.read_csv("/Users/archer/code/slr_houseprice_prediction/boston.csv")
+boston = pd.read_csv("/Users/archer/code/housing_price_prediction/boston.csv")
 
 target_column = 'MEDV'
 data = boston.drop(columns=[target_column]).values  # Features
