@@ -61,7 +61,8 @@ The target variable, **MEDV**, represents the median value of owner-occupied hom
 
 ### 1. Training Loss for MLP Model
 The training loss decreases over epochs, indicating the model's convergence.
-![MLP Training Loss](./path-to-mlp-loss.png)
+<img width="638" alt="Screenshot 2025-01-17 at 6 16 26 PM" src="https://github.com/user-attachments/assets/db1d7feb-518c-4aba-9cb9-ec5bfaf4b467" />
+
 
 ---
 
