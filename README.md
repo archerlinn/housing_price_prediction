@@ -60,8 +60,9 @@ The target variable, **MEDV**, represents the median value of owner-occupied hom
 ## 📈 Visualizations
 
 ### 1. Training Loss for MLP Model
-The training loss decreases over epochs, indicating the model's convergence.
-![NeuralNet Training Loss](./visuals/train_loss_nn.png)
+<p align="center">
+  <img src="./visuals/train_loss_nn.png" alt="NeuralNet Training Loss" width="600">
+</p>
 
 ---
 
@@ -70,13 +71,19 @@ The training loss decreases over epochs, indicating the model's convergence.
 Residuals (differences between true and predicted values) help assess the quality of the model.
 
 #### **Simple Linear Regression**
-![SLR Residuals](./visuals/residual_slr.png)
+<p align="center">
+  <img src="./visuals/residual_slr.png" alt="SLR Residuals" width="600">
+</p>
 
 #### **Multi-Layer Perceptron**
-![NeuralNet Residuals](./visuals/residual_nn.png)
+<p align="center">
+  <img src="./visuals/residual_nn.png" alt="NeuralNet Residuals" width="600">
+</p>
 
 #### **Decision Tree Regressor**
-<img src="./visuals/residual_dt.png" alt="Decision Tree Residuals" width="400"/>
+<p align="center">
+  <img src="./visuals/residual_dt.png" alt="Decision Tree Residuals" width="600">
+</p>
 
 ---
 
@@ -85,26 +92,38 @@ Residuals (differences between true and predicted values) help assess the qualit
 The distribution of residuals shows how predictions deviate from actual values.
 
 #### **Simple Linear Regression**
-![SLR Residual Histogram](./visuals/dist_res_slr.png)
+<p align="center">
+  <img src="./visuals/dist_res_slr.png" alt="SLR Residual Histogram" width="600">
+</p>
 
 #### **Multi-Layer Perceptron**
-![NeuralNet Residual Histogram](./visuals/dist_res_nn.png)
+<p align="center">
+  <img src="./visuals/dist_res_nn.png" alt="NeuralNet Residual Histogram" width="600">
+</p>
 
 #### **Decision Tree Regressor**
-![Decision Tree Residual Histogram](./visuals/dist_res_dt.png)
+<p align="center">
+  <img src="./visuals/dist_res_dt.png" alt="Decision Tree Residual Histogram" width="600">
+</p>
 
 ---
 
 ### 4. Line Plot of Predictions vs True Values
 
 #### **Simple Linear Regression**
-![SLR Line Plot](./visuals/tvp_slr.png)
+<p align="center">
+  <img src="./visuals/tvp_slr.png" alt="SLR Line Plot" width="600">
+</p>
 
 #### **Multi-Layer Perceptron**
-![NeuralNet Line Plot](./visuals/tvp_nn.png)
+<p align="center">
+  <img src="./visuals/tvp_nn.png" alt="NeuralNet Line Plot" width="600">
+</p>
 
 #### **Decision Tree Regressor**
-![Decision Tree Line Plot](./visuals/tvp_dt.png)
+<p align="center">
+  <img src="./visuals/tvp_dt.png" alt="Decision Tree Line Plot" width="600">
+</p>
 
 ---
 
