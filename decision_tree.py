@@ -72,7 +72,7 @@ plt.show()
 # 4. Line Plot of Predictions vs True Values
 plt.figure(figsize=(10, 6))
 plt.plot(range(len(y_test)), y_test, label="True Values", linestyle="--", marker="o")
-plt.plot(range(len(test_predictions)), test_predictions, label="Predicted Values", linestyle="--", marker="x")
+plt.plot(range(len(test_predictions)), test_predictions, label="Predicted Values", linestyle="--", marker="o")
 plt.xlabel("Test Data Index")
 plt.ylabel("Price")
 plt.title("True vs Predicted Values Over Test Set (Decision Tree)")
