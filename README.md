@@ -76,7 +76,7 @@ Residuals (differences between true and predicted values) help assess the qualit
 ![NeuralNet Residuals](./visuals/residual_nn.png)
 
 #### **Decision Tree Regressor**
-![Decision Tree Residuals](./visuals/residual_dt.png)
+<img src="./visuals/residual_dt.png" alt="Decision Tree Residuals" width="400"/>
 
 ---
 
